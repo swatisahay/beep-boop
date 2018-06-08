@@ -13,7 +13,8 @@ $(function() {
 // business Logic
 var beepBoop = function(number){
   // to print range of numbers
-
+  debugger
+if(number==="") return "Empty Box";
   var range=[];
   for (var i=0; i<=number;i+=1){
 
