@@ -2,23 +2,23 @@
 $(function() {
 
   $("#submit").click(function(){
-    var name= $("input#name").val();
+
     var number= $("input#num").val();
     var result= beepBoop(number);
     $("#output").text(result);
-    $(".names").text(name)
+    $("#formOne").trigger('reset');
   });
 });
 
 // business Logic
 var beepBoop = function(number){
   // to print range of numbers
+
   var range=[];
   for (var i=0; i<=number;i+=1){
 
-
 // to check if no. is divisible by 3
-  if((i%3===0)&&(i>0)){
+ if((i%3===0)&&(i>0)){
     range.push("I'm sorry, Dave. I'm afraid I can't do that.");
 
   }
@@ -34,6 +34,6 @@ var beepBoop = function(number){
     range.push(i);
   }
 }
-range = range .join(" ");
+range = range .join(", ");
 return range;
 }
