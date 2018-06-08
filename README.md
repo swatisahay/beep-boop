@@ -16,7 +16,7 @@ Create a webpage for Beep-Boop
 |Check if number is divisible by 3 return I'm sorry "name" I'm afraid I can't do that|12, 144, 129|I'm sorry "name" I'm afraid I can't do that
 |Program replaces 1 with boop |10, 100, 1000|boop
 |Program replaces 0 with beep |0, 230,500|beep
-|Program returns inputted number if it does not satisfy above three behaviors |244|244
+|Program returns range of numbers if it does not satisfy above three behaviors |5|1,2,3,4,5
 
 
 ## Technology Used
