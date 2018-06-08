@@ -1,7 +1,25 @@
 h1{
   text-align: center;
 }
-.container{
+body{
+  color: white;
   text-align: center;
-  background:
+  background:url(../img/background.jpg);
+  height: 100%;
+  width: 100%;
+
+}
+#submit{
+  background: red;
+  color: white;
+}
+/* .well{
+  padding-left: 200px;
+  background: black
+  color: white
+} */
+.center-text{
+  text-align: center;
+  color: #800000;
+  font-weight: bold;
 }

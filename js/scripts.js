@@ -12,13 +12,9 @@ $(function() {
 
 // business Logic
 var beepBoop = function(number){
-  // numberString= number.toString();
   // to print range of numbers
   var range=[];
   for (var i=0; i<=number;i+=1){
-
-
-// for (j=0; j<=range.lenth; j+=1){
 
 
 // to check if no. is divisible by 3
@@ -32,11 +28,12 @@ var beepBoop = function(number){
   }
   // to check if number includes 0
   else if(i.toString().indexOf('0')>(-1)) {
-    range.push("beep")
+    range.push("beep");
   }
   else{
-    range.push(i)
+    range.push(i);
   }
 }
+range = range .join(" ");
 return range;
 }
