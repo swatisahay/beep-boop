@@ -15,31 +15,46 @@ h1{
   color: white;
 }
 #output{
-  color: black ;
+  color:#800000 ;
   font-size: 20px;
-  font-family: cursive;
+  font-family: Times;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
+  margin: 15px;
+  padding: 15px;
 }
 .jumbotron{
-  background: #24b2e5;
-font-size: 50px;
-font-family: sans-serif;
-font-weight: bold;
+  background:url(../img/background.jpg);
+  /* background: #55dd39; */
+  font-size: 50px;
+  font-family: Times;
+  font-weight: bold;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
 }
 .border{
-text-align: left;
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  font-family: Times;
+  font-weight: bold;
 }
 .background{
   background-color: #24b2e5;
 }
 /* .well{
-  padding-left: 200px;
-  background: black
-  color: white
+padding-left: 200px;
+background: black
+color: white
 } */
 .center-text{
   text-align: center;
   color: #800000;
   font-weight: bold;
+}
+body{
+  margin: 9px;
+  padding: 15px;
+
 }
